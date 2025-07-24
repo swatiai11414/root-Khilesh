@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Khilesh’s Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body>
+  <header>
+    <h1>root@Khilesh</h1>
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="#repos">Repositories</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <a href="#ratelimit">API Status</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <div id="profile">Loading profile...</div>
+    </section>
+
+    <section id="repos">
+      <h2>My GitHub Repositories</h2>
+      <ul id="repo-list">Loading repositories...</ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li>Automation Tools – APKs, ransomware, GitHub Actions scripts.</li>
+        <li>Cybersecurity – Custom hacking tools and penetration tests.</li>
+        <li>Web Development – Interactive & responsive sites.</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact & Socials</h2>
+      <ul id="social-links"></ul>
+      <p>UPI ID: <strong>khilesh11414@oksbi</strong></p>
+    </section>
+
+    <section id="ratelimit">
+      <h2>GitHub API Status</h2>
+      <div id="ratelimit-info">Loading GitHub rate limit info...</div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Khilesh</p>
+  </footer>
+
+  <!-- Markdown parser for README -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
